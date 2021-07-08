@@ -29,7 +29,8 @@
         <router-view></router-view>
     </div>
 </body>
-<script src="js/router.js"></script>
+<script src="js/routerLink.js"></script>
+<script src="js/index.js"></script>
 <script>
     // 0. 如果使用模块化机制编程，导入Vue和VueRouter，要调用 Vue.use(VueRouter)
 
@@ -57,11 +58,11 @@
         }
     ]
 
-    // const router = new WebRouter({
-    //     mode: "hash",
-    //     routes
-    // })
-    // console.log(router);
+    const router = new WebRouter({
+        mode: "hash",
+        routes
+    })
+    console.log(router);
 </script>
 
 </html>
